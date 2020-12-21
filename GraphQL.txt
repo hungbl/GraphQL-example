@@ -1,0 +1,5 @@
+developed by Facebook to optimize RESTful API calls
+is a query langquage of course (Ql - Query Language) but for API and for fufilling those queries with your existing data
+client ask API exact what they need then API will response with only what client need nothing more nothing less
+grap all your data in single request
+can describle type
