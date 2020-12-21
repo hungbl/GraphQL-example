@@ -2,4 +2,14 @@ developed by Facebook to optimize RESTful API calls
 is a query langquage of course (Ql - Query Language) but for API and for fufilling those queries with your existing data
 client ask API exact what they need then API will response with only what client need nothing more nothing less
 grap all your data in single request
-can describle type
+can describle type: scalar (int, float, string, boolean, id)
+                    object (student, product ...)
+                    query
+                    mutation
+                    enum
+                    list
+
+GraphQL Schema
+describes the functionality available to the client applications that connect to
+can use any programming language to create a GraphQL schema and build an interface around
+

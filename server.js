@@ -16,8 +16,8 @@ const schema = makeExecutableSchema({typeDefs, resolvers})
 app.use(cors(), bodyParser.json());
 
 const  {graphiqlExpress,graphqlExpress} = require('apollo-server-express')
-app.use('/graphql',graphqlExpress({schema}))
-app.use('/graphiql',graphiqlExpress({endpointURL:'/graphql'}))
+app.use('/graphql',graphqlExpress({schema})) // api query purpose
+app.use('/graphiql',graphiqlExpress({endpointURL:'/graphql'})) // ui query purpose
 
 app.listen(
    port, () => console.info(
